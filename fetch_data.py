@@ -8,7 +8,7 @@ def save_datasets_as_csv():
     """載入所有需要的datasets並保存為CSV"""
 
     # 創建CSV資料夾
-    csv_folder = "./csv_datasets"
+    csv_folder = "./datasets"
     os.makedirs(csv_folder, exist_ok=True)
 
     # Dataset ID對應名稱
@@ -116,7 +116,7 @@ def load_specific_datasets():
     """只載入我們需要的特定datasets (更快的版本)"""
 
     # 創建CSV資料夾
-    csv_folder = "./csv_datasets"
+    csv_folder = "./datasets"
     os.makedirs(csv_folder, exist_ok=True)
 
     # 只載入我們需要的datasets
